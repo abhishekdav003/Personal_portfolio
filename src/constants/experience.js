@@ -1,145 +1,119 @@
-import TriNit from "../assets/images/Experience/TriNit.jfif";
-import acm from '../assets/images/Experience/acm.png';
-import appleute from '../assets/images/Experience/appleute.svg';
+import igc from "../assets/images/Experience/igc.png";
+import nits from "../assets/images/Experience/nits.png";
+import ef from "../assets/images/Experience/ef.png";
 
 import {
-    SiAntdesign,
-    SiMaterialui,
-    SiNestjs,
-    SiPostgresql,
-    SiPrisma,
-    SiPython,
-    SiReact,
-    SiTypescript,
-    TbBrandReactNative
+  SiFigma,
+  SiSlack,
+  SiPython,
+  SiScikitlearn,
+  SiPandas,
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiGithub,
 } from "react-icons/all";
-
 
 export const EXPERIENCES = [
   {
-    organisation: "Appleute",
-    logo: appleute,
-    link: "https://www.appleute.de/en/",
+    organisation: "Implica Global Corporation",
+    logo: igc,
+    link: "",
     positions: [
       {
-        title: "Software Engineering Intern (Remote)",
-        duration: "May-2024 - Current",
+        title: "Assitant Graphic Designer Intern (Remote)",
+        duration: "Oct 2023 - July 2024",
         content: [
           {
-            text: "Working on Full stack projects and App development with Agile Methodology.",
+            text: "Worked on revamping Company's Website Element.",
             tech: [
               {
                 id: "f-2",
-                icon: SiTypescript,
-                name: "TypeScript",
+                icon: SiFigma,
+                name: "Figma",
               },
               {
                 id: "f-1",
-                icon: SiReact,
-                name: "ReactJS",
+                icon: SiSlack,
+                name: "Slack",
               },
-              {
-                id: "f-3",
-                icon: SiAntdesign,
-                name: "Antd",
-              },
-              {
-                id: "f-4",
-                icon: TbBrandReactNative,
-                name: "React Native",
-              },
-              {
-                id: "f-5",
-                icon: SiNestjs,
-                name: "NestJS",
-              },
-              {
-                id: "f-6",
-                icon: SiPostgresql,
-                name: "Postgres",
-              },
-              {
-                id: "f-7",
-                icon: SiPrisma,
-                name: "Prisma ORM",
-              },
-            ]
+            ],
           },
         ],
       },
     ],
   },
   {
-    organisation: "TRI NIT Hackathon",
-    logo: TriNit,
-    link: "https://github.com/TRI-NIT",
+    organisation: "NIT Silchar",
+    logo: nits,
+    link: "",
     positions: [
       {
-        title: "Web Developer",
-        duration: "Jan 2023",
+        title: "Data Science Intern",
+        duration: "Jun 2024 - July 2024",
         content: [
           {
-            text: "Contributed to Tri-Nit hackathon website.",
-            link: "https://github.com/TRI-NIT",
-            tech: [
-              {
-                id: "f-1",
-                icon: SiReact,
-                name: "ReactJS",
-              },
-              {
-                id: "f-2",
-                icon: SiMaterialui,
-                name: "Material UI",
-              },
-            ]
-          },
-        ],
-      },
-    ],
-  },
-  {
-    organisation: "ACM NITK",
-    logo: acm,
-    link: "https://github.com/TRI-NIT",
-    positions: [
-      {
-        title: "Project Mentor",
-        duration: "Jan 2023",
-        content: [
-          {
-            text: "Mentored team on a 'Online code editor' project.",
-            link: "https://github.com/Amruth-S05/Online-Code-Editor",
-          },
-        ],
-      },
-      {
-        title: "DSA mentor",
-        duration: "May 2022",
-        content: [
-          {
-            text: "Mentored 30+ students in summer mentorship program on topic data structures and algorithms.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Project Mentee",
-        duration: "Jan-April 2022",
-        content: [
-          {
-            text: "Analysed various games like Ludo, Mafia, Snake and Ladder in Python.",
+            text: "Worked on Sentiment Analysis of Hindi Languages.",
             link: "",
             tech: [
               {
                 id: "f-1",
                 icon: SiPython,
-                name: "Python"
-              }
-            ]
+                name: "Python",
+              },
+              {
+                id: "f-2",
+                icon: SiScikitlearn,
+                name: "Scikitlearn",
+              },
+              {
+                id: "f-2",
+                icon: SiPandas,
+                name: "Pandas",
+              },
+            ],
           },
         ],
       },
     ],
   },
-]
+  {
+    organisation: "Edunet Foundation",
+    logo: ef,
+    link: "",
+    positions: [
+      {
+        title: "Frontend Developer Intern",
+        duration: "Jun 2023 - July 2023",
+        content: [
+          {
+            text: "Developed Various Mini Projects using Frontend Technologies.",
+            link: "",
+            tech: [
+              {
+                id: "f-1",
+                icon: SiHtml5,
+                name: "HTML",
+              },
+              {
+                id: "f-2",
+                icon: SiCss3,
+                name: "CSS",
+              },
+              {
+                id: "f-2",
+                icon: SiJavascript,
+                name: "JavaScript",
+              },
+              {
+                id: "f-2",
+                icon: SiGithub,
+                name: "Github",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+];

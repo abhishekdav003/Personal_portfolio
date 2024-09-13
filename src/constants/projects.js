@@ -1,391 +1,302 @@
-import ehippo from '../assets/images/Projects/favicon.ico';
-import uncover from '../assets/images/Projects/uncover.webp'
-import bank from "../assets/images/Projects/bank.jpg";
-import bloodBank from '../assets/images/Projects/bloodbank.webp';
-import bookmark from "../assets/images/Projects/bookmark.jfif";
-import expenseTracker from '../assets/images/Projects/expense-tracker.png';
-import gocli from '../assets/images/Projects/gocli.jpg';
-import keepNotes from "../assets/images/Projects/keepNotes.png";
-import movieLand from "../assets/images/Projects/movieLand.jfif";
-import npm from '../assets/images/Projects/npm.jpg';
-import portfolio from '../assets/images/Projects/portfolio.jpg';
-import videotube from "../assets/images/Projects/video-tube.png";
+import youtube from "../assets/images/Projects/youtube.png";
+import cart from "../assets/images/Projects/cart.jpg";
+import vsms from "../assets/images/Projects/vsms.jpg";
+import port from "../assets/images/Projects/port.jpeg";
+import igc from "../assets/images/Projects/igc.png";
+import kigc from "../assets/images/Projects/kigc.png";
+import todo from "../assets/images/Projects/todo.png";
+import spt from "../assets/images/Projects/spt.jpeg";
+import sa from "../assets/images/Projects/sa.jpeg";
+import ir from "../assets/images/Projects/ir.jpeg";
 
 import {
-    AiFillHtml5,
-    BsDiamond,
-    BsDroplet,
-    DiDatabase,
-    FaStripe,
-    GiDiamondTrophy,
-    GrDiamond,
-    GrStripe,
-    RiDrizzleFill,
-    RiDrizzleLine,
-    SiCss3,
-    SiDart,
-    SiExpress,
-    SiFlutter,
-    SiGo,
-    SiMaterialui,
-    SiMongodb,
-    SiNextdotjs,
-    SiNodedotjs,
-    SiNpm,
-    SiReact,
-    SiRedux,
-    SiStripe,
-    SiSupabase,
-    SiTailwindcss,
-    SiVite
+  SiFlask,
+  SiMongodb,
+  SiReact,
+  SiExpress,
+  SiGithub,
+  SiPython,
+  SiTailwindcss,
+  SiFigma,
+  SiSlack,
+  SiVite,
+  SiNodedotjs,
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiPandas,
+  SiScikitlearn,
+  SiTensorflow,
+  SiNumpy,
 } from "react-icons/all";
 
 export const PROJECTS = [
   {
-    id: "project-200",
-    title: "E-Hippo",
-    github: "https://github.com/Sudhanva-Nadiger/E-Hippo",
-    link: "https://e-hippo.vercel.app/",
-    image: ehippo,
-    content:
-      "Ecommerce website with Store and Admin dashboard! Built with NextJs.",
+    id: "project-1",
+    title: "Youtube Clone",
+    github: "https://github.com/abhishekdav003/Youtube_clone",
+    link: "https://ephemeral-melomakarona-dfed4a.netlify.app/",
+    image: youtube,
+    content: "Developed a YouTube clone using the MERN stack",
     stack: [
       {
         id: "icon-1",
-        icon: SiNextdotjs,
-        name: "NextJs"
+        icon: SiReact,
+        name: "ReactJs",
       },
       {
         id: "icon-2",
-        icon: SiSupabase,
-        name: "Supabase"
-      },
-      {
-        id: "icon-3",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-5",
-        icon: BsDroplet,
-        name: "Drizzle ORM"
-      },
-      {
-        id: "icon-6",
-        icon: SiTailwindcss,
-        name: "Tailwind css"
-      },
-      {
-        id: "icon-7",
-        icon: GrDiamond,
-        name: "Zod"
-      },
-      {
-        id: "icon-8",
-        icon: GrStripe,
-        name: "Stripe"
-      },
-    ],
-  },
-  {
-    id: "project-201",
-    title: "Uncoover",
-    github: "https://github.com/Sudhanva-Nadiger/uncover",
-    link: "https://un-cover.vercel.app/",
-    image: uncover,
-    content:
-      "Write AI generated Cover letter in seconds. (Applying to job doesnt have to suck anymore)",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiNextdotjs,
-        name: "NextJs"
-      },
-      {
-        id: "icon-3",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiSupabase,
-        name: "Supabase"
-      },
-      {
-        id: "icon-6",
-        icon: SiTailwindcss,
-        name: "Tailwind css"
-      },
-      {
-        id: "icon-5",
-        icon: BsDroplet,
-        name: "Drizzle ORM"
-      },
-      {
-        id: "icon-7",
-        icon: GrDiamond,
-        name: "Zod"
-      },
-      {
-        id: "icon-8",
-        icon: GrStripe,
-        name: "Stripe"
-      },
-    ],
-  },
-  {
-    id: "project-100",
-    title: "Hemo Tracker",
-    github: "https://github.com/Sudhanva-Nadiger/blood-bank-management",
-    link: "https://sbn-bloodbank.onrender.com/",
-    image: bloodBank,
-    content:
-      "A comprehensive full stack web application for managing blood donatoins using the MERN stack.",
-    stack: [
-      {
-        id: "icon-1",
         icon: SiMongodb,
-        name: "MongoDB"
+        name: "Mongodb",
+      },
+      {
+        id: "icon-2",
+        icon: SiGithub,
+        name: "Github",
       },
       {
         id: "icon-2",
         icon: SiExpress,
-        name: "Express"
-      },
-      {
-        id: "icon-3",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-4",
-        icon: SiNodedotjs,
-        name: "Node.js"
-      },
-    ],
-  },
-  {
-    id: "project-101",
-    title: "React-Leetcode",
-    github: "https://github.com/Sudhanva-Nadiger/react-leetcode",
-    link: "https://react-leetcode-exampple.vercel.app/",
-    image: npm,
-    content:
-      "Collection of components for showcasing your leetcode profile in your portfolio ✨.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        name: "ExpressJs",
       },
       {
         id: "icon-2",
         icon: SiTailwindcss,
-        name: "Tailwind CSS"
-      },
-      {
-        id: "icon-3",
-        icon: SiVite,
-        name: "Vite"
-      },
-      {
-        id: "icon-4",
-        icon: SiNpm,
-        name: "NPM"
-      },
-    ],
-  },
-  {
-    id: "project-1",
-    title: "Bookmark App",
-    github: "https://github.com/Sudhanva-Nadiger/Book-Mark-App",
-    link: "",
-    image: bookmark,
-    content:
-      "A full-stack web application that allows user to bookmark their favorite or frqunetly used website at one place without having it to search it again and again. ",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiMongodb,
-        name: "MongoDB"
+        name: "Tailwindcss",
       },
       {
         id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: SiCss3,
-        name: "CSS"
-      },
-      {
-        id: "icon-4",
-        icon: SiReact,
-        name: "React"
+        icon: SiNodedotjs,
+        name: "NodeJS",
       },
     ],
   },
   {
     id: "project-2",
-    title: "Bank Landing Page",
-    github: "https://github.com/Sudhanva-Nadiger/Modern_Bank_App",
-    link: "https://sudhanva-nadiger.github.io/Modern_Bank_App/index.html",
-    image: bank,
+    title: "E-commerce",
+    github: "",
+    link: "",
+    image: cart,
     content:
-      "A landing page for a bank with modern UI/UX using React and Tailwind.",
+      "Developed an E-commerce web-app with admin panel using the MERN stack",
     stack: [
       {
         id: "icon-1",
         icon: SiReact,
-        name: "React"
+        name: "ReactJs",
+      },
+      {
+        id: "icon-2",
+        icon: SiMongodb,
+        name: "Mongodb",
+      },
+      {
+        id: "icon-2",
+        icon: SiGithub,
+        name: "Github",
+      },
+      {
+        id: "icon-2",
+        icon: SiExpress,
+        name: "ExpressJs",
       },
       {
         id: "icon-2",
         icon: SiTailwindcss,
-        name: "Tailwind CSS"
+        name: "Tailwindcss",
       },
-
+      {
+        id: "icon-2",
+        icon: SiNodedotjs,
+        name: "NodeJS",
+      },
     ],
   },
   {
     id: "project-3",
-    title: "Keep Notes",
-    github: "https://github.com/Sudhanva-Nadiger/Keep-Notes-App",
+    title: "VRaS",
+    github: "https://github.com/abhishekdav003/VRaS",
     link: "",
-    image: keepNotes,
-    content: "A progressive note taking application developed using React and CSS. ",
+    image: vsms,
+    content: "Recognize voice and send Sms",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiPython,
+        name: "Python",
       },
-      {
-        id: "icon-2",
-        icon: SiCss3,
-        name: "CSS"
-      },
-
-    ],
-  },
-  {
-    id: "project-4",
-    title: "Movie Land",
-    github: "https://github.com/Sudhanva-Nadiger/Movie_Land-2",
-    link: "",
-    image: movieLand,
-    content:
-      "A web application that easily provides guidance about any Movies & Tv shows.",
-    stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-4",
-        icon: SiRedux,
-        name: "Redux Toolkit"
-      },
-      {
-        id: "icon-5",
-        icon: SiCss3,
-        name: "CSS"
+        icon: SiFlask,
+        name: "Flask",
       },
     ],
   },
   {
     id: "project-5",
-    title: "Cli Task Manager",
-    github: "https://github.com/Sudhanva-Nadiger/go-cli-task-manager",
-    image: gocli,
-    content:
-      "A simple CLI task manager developed using Go.",
+    title: "Implica Website Revamping",
+    github: "",
+    link: "",
+    image: igc,
+    content: "Web Elements Designing",
     stack: [
       {
         id: "icon-1",
-        icon: SiGo,
-        name: "Go"
+        icon: SiFigma,
+        name: "Figma",
       },
       {
-        id: "icon-3",
-        icon: DiDatabase,
-        name: "BoltDB"
+        id: "icon-2",
+        icon: SiSlack,
+        name: "Slack",
+      },
+    ],
+  },
+  {
+    id: "project-4",
+    title: "Portfolio",
+    github: "",
+    link: "",
+    image: port,
+    content: "Personal Portfolio (This page only)",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "ReactJs",
+      },
+      {
+        id: "icon-2",
+        icon: SiGithub,
+        name: "Github",
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "Tailwindcss",
+      },
+      {
+        id: "icon-2",
+        icon: SiVite,
+        name: "Vite",
+      },
+    ],
+  },
+
+  {
+    id: "project-6",
+    title: "Implica's Product Knocksy",
+    github: "",
+    link: "",
+    image: kigc,
+    content: "Product Elements Designing",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiFigma,
+        name: "Figma",
+      },
+      {
+        id: "icon-2",
+        icon: SiSlack,
+        name: "Slack",
       },
     ],
   },
   {
     id: "project-7",
-    title: "Video Tube",
-    github: "https://github.com/Sudhanva-Nadiger/My-App",
-    link: "https://video-tube-react.netlify.app/",
-    image: videotube,
-    content:
-      "A frontend web application for video links management. Provides the functionality like adding, editing, deleting, drag and drop, history of watched videos etc.",
+    title: "To Do List",
+    github: "https://github.com/abhishekdav003/Todo_List",
+    link: "",
+    image: todo,
+    content: "This app can do all CRUD operations",
     stack: [
       {
         id: "icon-1",
         icon: SiReact,
-        name: "React"
+        name: "React",
       },
       {
         id: "icon-2",
-        icon: SiRedux,
-        name: "Redux Toolkit"
+        icon: SiNodedotjs,
+        name: "NodeJS",
+      },
+    ],
+  },
+
+  {
+    id: "project-9",
+    title: "Sentiment Analysis",
+    github: "",
+    link: "",
+    image: sa,
+    content: "Sentiment Analysis on hindi language",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiPython,
+        name: "python",
       },
       {
-        id: "icon-3",
-        icon: SiMaterialui,
-        name: "Redux Toolkit"
+        id: "icon-2",
+        icon: SiPandas,
+        name: "pandas",
       },
-    ]
+      {
+        id: "icon-2",
+        icon: SiScikitlearn,
+        name: "Scikitlearn",
+      },
+    ],
   },
   {
     id: "project-8",
-    title: "Personal Portfolio",
-    github: "https://github.com/Sudhanva-Nadiger/",
-    link: "https://sudhanva-nadiger.netlify.app/",
-    image: portfolio,
-    content:
-      "Personal portfolio website with React and Tailwind CSS.",
+    title: "Spotify Clone",
+    github: "https://github.com/abhishekdav003/Todo_List",
+    link: "",
+    image: spt,
+    content: "You can listen your personalize playlist there.",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiHtml5,
+        name: "HTML",
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS"
+        icon: SiCss3,
+        name: "CSS",
       },
       {
-        id: "icon-3",
-        icon: SiCss3,
-        name: "CSS"
+        id: "icon-2",
+        icon: SiJavascript,
+        name: "javascript",
       },
     ],
   },
   {
-    id: "project-9",
-    title: "Expense Tracker",
-    github: "https://github.com/Sudhanva-Nadiger/Personal_Expense_Tracker",
+    id: "project-10",
+    title: "Image Text Reader",
+    github: "",
     link: "",
-    image: expenseTracker,
-    content:
-      "An application developed using Flutter that helps to track the overall expenses made.",
+    image: ir,
+    content: "Reads Text from image",
     stack: [
       {
         id: "icon-1",
-        icon: SiFlutter,
-        name: "Flutter"
+        icon: SiPython,
+        name: "python",
       },
       {
         id: "icon-2",
-        icon: SiDart,
-        name: "Dart"
+        icon: SiTensorflow,
+        name: "Tensorflow",
+      },
+      {
+        id: "icon-2",
+        icon: SiNumpy,
+        name: "Numpy",
       },
     ],
   },
-]
+];

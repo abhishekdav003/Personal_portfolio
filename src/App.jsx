@@ -8,7 +8,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Loading from "./components/Loading";
 const Projects = lazy(() => import("./components/Projects"));
-const OpenSource = lazy(() => import("./components/OpenSource"));
+// const OpenSource = lazy(() => import("./components/OpenSource"));
 import Experience from "./components/Experience";
 
 const App = () => {
@@ -37,7 +37,7 @@ const App = () => {
         </div>
         <Education />
         <Projects />
-        <OpenSource />
+        {/* <OpenSource /> */}
         <Footer />
       </div>
     </Suspense>

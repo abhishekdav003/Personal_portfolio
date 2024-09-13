@@ -39,9 +39,7 @@ const FeatureCard = (props) => {
       <p className="font-poppins text-light_secondary font-normal  text-[16px] leading-[30px] mb-1">
         - {content1}
       </p>
-      <p className="font-poppins text-light_secondary font-normal text-[16px] leading-[30px] mb-1">
-        - {content2}
-      </p>
+      
     </div>
   </div>
 };
