@@ -8,7 +8,7 @@ export { PROJECTS } from "./projects";
 export { OPEN_SOURCE_CONTRIBUTIONS } from "./openSource";
 
 export const RESUME_LINK =
-  "https://drive.google.com/file/d/1k5UnegmxF9edlJ2fD6NwIYpfeZeUWzdQ/view?usp=sharing";
+  "https://drive.google.com/file/d/1P8YdWbdaJK620NcJUk7DDjGEvzpLoTbS/view?usp=sharing";
 export const REPO_LINK = "https://github.com/abhishekdav003";
 
 export const CONTENT = {

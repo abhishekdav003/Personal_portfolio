@@ -35,7 +35,7 @@ export const PROJECTS = [
     id: "project-1",
     title: "Youtube Clone",
     github: "https://github.com/abhishekdav003/Youtube_clone",
-    link: "https://ephemeral-melomakarona-dfed4a.netlify.app/",
+    link: "",
     image: youtube,
     content: "Developed a YouTube clone using the MERN stack",
     stack: [
@@ -155,7 +155,7 @@ export const PROJECTS = [
   {
     id: "project-4",
     title: "Portfolio",
-    github: "",
+    github: "https://github.com/abhishekdav003/Personal_portfolio",
     link: "",
     image: port,
     content: "Personal Portfolio (This page only)",
@@ -252,7 +252,7 @@ export const PROJECTS = [
   {
     id: "project-8",
     title: "Spotify Clone",
-    github: "https://github.com/abhishekdav003/Todo_List",
+    github: "https://github.com/abhishekdav003/spotify_clone",
     link: "",
     image: spt,
     content: "You can listen your personalize playlist there.",
