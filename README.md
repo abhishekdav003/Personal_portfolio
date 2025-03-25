@@ -20,16 +20,6 @@
 
 ---
 
-## 📸 Sneak Peek
-
-| Home Page | Projects | Contact |
-|----------|----------|---------|
-| ![Hero Section](https://via.placeholder.com/300x180?text=Hero+Section) | ![Projects](https://via.placeholder.com/300x180?text=Projects+Showcase) | ![Contact](https://via.placeholder.com/300x180?text=Contact+Form) |
-
-> 📷 _You can replace placeholders with real screenshots or GIFs!_
-
----
-
 ## 🛠 Tech Stack
 
 > Everything that powers this beautiful portfolio 👇
